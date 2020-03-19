@@ -31,7 +31,7 @@ public class LevelGenerator : MonoBehaviour
                 var gridObjectClone = Instantiate(gridObjectPrefab);
 
                 //Set the grid position
-                gridObjectClone.GridPosition = new IntVector2(x, -y); //...
+                gridObjectClone.GridPosition = new IntVector2(x, -y); //..
 
                 //Move the object to its grid position
                 gridObjectClone.transform.position = gridObjectClone.GridPosition.AsVector3();

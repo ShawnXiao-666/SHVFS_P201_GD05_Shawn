@@ -18,7 +18,7 @@ public struct IntVector2
         return new IntVector2(v1.x + v2.x, v1.y + v2.y);
     }
 
-    public static IntVector2 operator -(IntVector2 v)
+    public static IntVector2 operator -(IntVector2 v) //..
     {
         return new IntVector2(-v.x, -v.y);
     }
